@@ -1,0 +1,81 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+   background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.info-container{
+  height: 70vh;
+  width: 100vh;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255,225,255,0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 30px 30px 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: inset 0 20px 4px -19px rgba(255,255,255,0.7);
+
+  /* margin-left: 32vh;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: inset 0 20px 4px -19px rgb(255 255 255 / 70%); */
+}
+
+button{
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  background: linear-gradient(to right top,rgba(232, 69, 69,0.9),rgba(81, 196, 211,0.5));
+  border: none;
+  border-radius: 7px;
+  text-shadow: 0 2px 5px #909090;
+  letter-spacing: 2.5px;
+  box-shadow: inset 0 20px 4px -19px rgba(255,255,255,0.4),0 12px 12px 0 rgba(0,0,0,0.3);
+}
+
+button:hover{
+  background: linear-gradient(to left bottom,rgba(232, 69, 69,0.9),rgba(81, 196, 211,0.5));
+}
+
+button:active{
+  transform: translateY(3px);
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.3);
+}
+
+#image-of-pip{
+  height:40vh;
+  width: 70vh;
+  padding-top: 5px;
+  margin:0 auto;
+}
+
+h1{
+  font-size: 3rem;
+}
